@@ -1,0 +1,14 @@
+# tglib Telegram application credentials
+#
+# Copy to telegram.toml (or config/telegram.toml) and fill with credentials from
+# an application you registered at https://my.telegram.org
+#
+# Do NOT copy api_id / api_hash from Telegram Desktop or any other client.
+# These identify your application, not a user account.
+#
+# Developers may instead export TELEGRAM_API_ID / TELEGRAM_API_HASH.
+
+[telegram]
+api_id = 0
+# api_hash = ""
+# use_test_dc = false

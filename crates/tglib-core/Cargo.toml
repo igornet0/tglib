@@ -1,0 +1,14 @@
+[package]
+name = "tglib-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "tglib core: Telegram User API domain types (IDs, events, permissions)"
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+thiserror.workspace = true
